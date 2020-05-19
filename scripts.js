@@ -11,3 +11,9 @@ document.querySelector('#submit').addEventListener('click', event => {
     document.querySelector('#result').style.display = 'block';
     document.querySelector('#score').innerText = 100 - checked;
 });
+
+document.querySelector('#top').addEventListener('click', event => {
+    if (document.querySelector('#pee').checked == true) {
+        event.preventDefault();
+    }
+});
