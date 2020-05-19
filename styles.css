@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    position: relative;
+    top: 30px;
+    background-image: url("pasta.png");
+    background-size: 250px;
+    background-color: #fbeecb;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+input, label {
+    margin-bottom: 5px;
+    -webkit-user-select: none;
+}
+
+label::after {
+    content: "\A";
+    white-space: pre;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+i {
+    font-size: 17px;
+}
+
+.center {
+    width: 100vw;
+    text-align: center;
+}
+
+#content {
+    margin-left: 15px;
+}
+
+#submit {
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+#result {
+    display: none;
+}
