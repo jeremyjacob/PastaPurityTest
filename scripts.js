@@ -17,3 +17,9 @@ document.querySelector('#top').addEventListener('click', event => {
         event.preventDefault();
     }
 });
+
+document.querySelector('#pee').addEventListener('click', event => {
+    if (document.querySelector('#top').checked == true) {
+        document.querySelector('#top').checked = false;
+    }
+});
